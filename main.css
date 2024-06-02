@@ -1,0 +1,620 @@
+@media(max-width:780px){
+    body{
+        background-image: url(mianbg.jpg);
+        color: white;
+    }
+    header{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        background-image: url(headerbg.webp);
+        border-radius: 5px;
+        margin: 2px;
+    }
+    .logo{
+        height: 98px;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: black;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 100;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: black;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 100;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .home{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px; 
+    }
+    .players{
+        grid-column:1/2;
+        grid-row: 2/3;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .seriea{
+        grid-column:2/3;
+        grid-row: 2/3;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .legends{
+        grid-column:3/4;
+        grid-row: 2/3;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .champions{
+        grid-column:1/2;
+        grid-row: 3/4;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .sansiro{
+        grid-column:2/3;
+        grid-row: 3/4;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .trophies{
+        grid-column:3/4;
+        grid-row: 3/4;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .cont1{
+        text-align: center;
+    }
+    .img{
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    h1,
+    h3{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    p{
+        margin: 0 0 0 0;
+    }
+    .plcontainer{
+        display: grid;
+        grid-template-columns: 120px 1fr;
+    }
+    .pl1{
+        display: grid;
+        justify-content: center;
+    }
+    .plimg{
+        width: 100px;
+        border-radius: 5px;
+    }
+    table{
+        width: 100%;
+    }
+    td{
+        text-align: center;
+    }
+    .img3{
+        width: 40px;
+        height: 40px;
+    }
+    .cont3{
+        text-align: center;
+    }
+    .img1{
+        width: 100%;
+        margin-top: 2px;
+        border-radius: 5px;
+    }
+    figcaption{
+        text-align: center;
+        margin-bottom: 30px;
+    } 
+    .cont4{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    } 
+    iframe{
+        width:100%;
+        height: 315px;
+        margin-top: 20px;
+    }
+    .cont2{
+        text-align: center;
+    }
+    .trophiescon{
+        display: flex;
+        flex-direction: column;
+    }
+     .cup{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .cup1,
+     .cup2,
+     .cup3,
+     .cup4,
+     .cup5,
+     .cup6,
+     .cup7{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .pm{
+        margin-bottom: 30px;
+    }
+    footer{
+        background-color: red;
+        margin-top: 100px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .f1{
+        padding-top: 10px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+@media (min-width:781px) and (max-width:1000px){
+    body{
+        background-image: url(mianbg.jpg);
+        color: white;
+    }
+    .wrapper{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        background-image: url(headerbg.webp);
+        border-radius: 5px;
+        margin: 2px;
+    }
+    .logo{
+        height: 98px;
+        width: 60px;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: black;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 100;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .home{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px; 
+    }
+    .players{
+        grid-column:1/2;
+        grid-row: 2/3;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .seriea{
+        grid-column:2/3;
+        grid-row: 2/3;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .legends{
+        grid-column:3/4;
+        grid-row: 2/3;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .champions{
+        grid-column:1/2;
+        grid-row: 3/4;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .sansiro{
+        grid-column:2/3;
+        grid-row: 3/4;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .trophies{
+        grid-column:3/4;
+        grid-row: 3/4;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    h1{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .cont1{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        width: 300px;
+        border-radius: 5px;
+    }
+    p{
+        margin: 0 0 0 0;
+    }
+    .plcontainer{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        text-align: left;
+    }
+    .plimg{
+        width: 150px;
+        float: right;
+        padding-right: 5px;
+        margin-bottom: 10px;
+    }
+    table{
+        width: 100%;
+    }
+    td{
+        text-align: center;
+        
+    }
+    .img3{
+        width: 70px;
+        height: 70px;
+    }
+    figcaption{
+        text-align: center;
+    }
+    .legendscon{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .cont3{
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+    .cont4{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    iframe{
+        width: 600px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    .cont2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 5px;
+        text-align: center;
+    }
+    .trophiescon{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .cup{
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 100%;
+    }
+    .cup1,
+    .cup2,
+    .cup3,
+    .cup4,
+    .cup5,
+    .cup6,
+    .cup7{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 50%;
+    }
+    .img2{
+        width: 100px;
+    }
+    .pm{
+        margin-bottom: 50px;
+    }
+    footer{
+        background-color: red;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 100px;
+        height: 200px;
+        border-radius: 5px;
+    }
+    .f1{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+@media (min-width:1001px){
+    body{
+        background-image: url(mianbg.jpg);
+        color: white;
+    }
+    .wrapper{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    header{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        background-image: url(headerbg.webp);
+        border-radius: 5px;
+        margin: 2px;
+    }
+    .logo{
+        height: 98px;
+        width: 60px;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: black;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 100;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .home{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px; 
+    }
+    .players{
+        grid-column:1/2;
+        grid-row: 2/3;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .seriea{
+        grid-column:2/3;
+        grid-row: 2/3;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .legends{
+        grid-column:3/4;
+        grid-row: 2/3;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .champions{
+        grid-column:1/2;
+        grid-row: 3/4;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .sansiro{
+        grid-column:2/3;
+        grid-row: 3/4;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    .trophies{
+        grid-column:3/4;
+        grid-row: 3/4;
+        text-align: center;
+        border-radius: 5px;
+        background-color: red;
+        margin: 2px;
+    }
+    h1{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .cont1{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    img{
+        width: 360px;
+        border-radius: 5px;
+    }
+    .plcontainer{
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15% 15%;
+        text-align: left;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .plimg{
+        width: 105px;
+        float: right;
+        padding-right: 5px;
+        border-radius: 5px;
+    }
+    p{
+        margin: 0 0 0 0;
+    }
+    table{
+        width: 100%;
+    }
+    td{
+        text-align: center;
+    }
+    .img3{
+        width: 70px;
+        height: 70px;
+    }
+    .legendscon{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        text-align: center;
+    }
+    figcaption{
+        text-align: center;
+    }
+    .cont3{
+        margin: 5px;
+    }
+    .img1{
+        width: 300px;
+    }
+    .cont4{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 15px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    iframe{
+        width: 100%;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .cont2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+        margin: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    .trophiescon{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .cup{
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 100%;
+    }
+    .cup1,
+    .cup2,
+    .cup3,
+    .cup4,
+    .cup5,
+    .cup6,
+    .cup7{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 50%;
+    }
+    .img2{
+        width: 100px;
+    }
+    .pm{
+        margin-bottom: 50px;
+    }
+    footer{
+        background-color: red;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 100px;
+        height: 200px;
+        border-radius: 5px;
+    }
+    .f1{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
